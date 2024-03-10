@@ -55,7 +55,7 @@ const Head = () => {
 
 const MastHead = () => {
     return (
-        <div className="lg:h-screen">
+        <div className="lg:h-screen ">
             <div className="flex flex-col items-center justify-center lg:h-screen relative lg:mt-20 mt-40">
                 <div className="w-80 md:w-4/5 relative">
                     <img src="images/1-1.png" alt="Image" className="w-full rounded-xl border-white-500 border-2	" />
@@ -113,7 +113,7 @@ const About = () => {
                     Get ready to squeeeeee with delight! Poogy is your one-stop shop for all things adorable, calm, fun, and vibin&apos;. We&apos;re a collection of unique piglet NFTs inspired by the simple joys of life: soft cuddles, sunny naps, and playful muddles.
                 </p>
             </div>
-            <div className="mt-10">
+            <div className="md:mt-10">
                 <img src="/images/about-poogy.png" className="mx-auto" style={{ maxWidth: "80%" }} alt="" />
             </div>
         </div>
@@ -124,12 +124,12 @@ const About = () => {
 
 const Features = () => {
     return (
-        <div className="text-center overflow-hidden my-24 lg:mt-40" id="features">
+        <div className="text-center overflow-hidden mb-12 lg:mt-40 mt-24" id="features">
             <h1 className="heading1">FEATURES</h1>
 
             <div className="flex flex-col md:flex-row items-center justify-center">
-                <div className="w-full md:w-1/3 p-4 md:p-8">
-                    <img src="/images/google.jpg" alt="" className="w-full h-auto md:block hidden" />
+                <div className="w-full md:w-1/3 p-4 md:p-8 md:block hidden">
+                    <img src="/images/google.jpg" alt="" className="w-full h-auto" />
                 </div>
                 <div className="w-full md:w-1/2 text-left p-4 md:p-16 flex flex-col justify-center">
                     <p className="subtext uppercase">

@@ -19,9 +19,9 @@ const DesktopNFT = () => {
   }, [currentGroup]);
 
   return (
-    <div className="text-center overflow-hidden lg:mt-40 hidden lg:block" id="nft">
-      <div className="lg:mt-80 mt-40">
-        <h1 className="heading2">NFT&apos;S</h1>
+    <div className="text-center overflow-hidden hidden lg:block" id="nft">
+      <div className="">
+        <h1 className="heading2 mt-80">NFT&apos;S</h1>
         <div className="flex flex-row justify-center">
           {/* Display the NFTs for the current group */}
           {nftData.slice(currentGroup * 3, currentGroup * 3 + 3).map((nft) => (
@@ -93,9 +93,9 @@ const MobileNFT = () => {
   }, [currentGroup]);
 
   return (
-    <div className="text-center overflow-hidden mt-40 lg:hidden md:hidden" id="nft">
-      <div className="mt-40">
-        <h1 className="heading2">NFT&apos;S</h1>
+    <div className="text-center overflow-hidden lg:hidden md:hidden" id="nft">
+      <div className="">
+        <h1 className="heading2 mt-40">NFT&apos;S</h1>
         <div className="flex justify-center">
           {/* Display the current NFT */}
           <div className={`p-4 pt-12 relative ${styles['flip-container']}`} key={nftData[currentGroup].id}>
