@@ -4,6 +4,7 @@ import { useEffect, useState } from 'react';
 import Lenis from '@studio-freight/lenis'
 import About from "../about";
 import pinkBackground from "../../../public/images/bg/pink/bg-1440-pink.png";
+import Scroll from "../scroll";
 
 
 export default function Oinks() {
@@ -23,6 +24,7 @@ export default function Oinks() {
 
 
     <main className={`${styles['top-bg']}`}>
+      <Scroll />
       <About />
 
     </main>

@@ -20,7 +20,7 @@ const Ready = () => {
       <div className="pink-bg border-white border-2 p-4 relative rounded-2xl mt-8 md:mt-16">
         <div className="flex flex-col md:flex-row">
           <div className="w-full md:w-1/2 p-4">
-            <img src="/images/ready_img.png" className="mx-auto rounded-2xl" alt="" srcSet="" />
+            <img src="/images/are_you_ready.png" className="mx-auto rounded-2xl" alt="" srcSet="" />
           </div>
           <div className="w-full md:w-1/2 p-4">
             <img src="/images/funny.jpg" className="mx-auto rounded-2xl" alt="" srcSet="" />
@@ -51,7 +51,7 @@ const Snuggle = () => {
       </p>
 
       <div className="flex items-center justify-center space-x-4 md:mt-8 mt-4">
-        <a href="#">
+        <a href="https://twitter.com/Poogy_nfts" target="_blank">
           <svg style={{ width: "70px", height: "70px" }} className="w-6 h-6 lg:mx-6 mx-2 sm-hw" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 21 25">
             <path fill="white" d="M13.8 10.5 20.7 2h-3l-5.3 6.5L7.7 2H1l7.8 11-7.3 9h3l5.7-7 5.1 7H22l-8.2-11.5Zm-2.4 3-1.4-2-5.6-7.9h2.3l4.5 6.3 1.4 2 6 8.5h-2.3l-4.9-7Z"></path>
           </svg>
